@@ -7,11 +7,9 @@ export const Footer = () => {
           <address className="text-white mb-2 text-sm">
             16 Crosse Hall Lane, Chorley, Lancashire, PR60QJ
           </address>
-          <div className="m-8">
-            <a className="cursor-pointer" href="https://google.com">
-              Get Directions
-            </a>
-          </div>
+          <a className="cursor-pointer" href="https://google.com">
+            <p>Get Directions</p>
+          </a>
         </div>
         <div className="text-center w-1/3">
           <h4 className="text-white text-xl md:mb-2 mb-2">Opening hours</h4>
@@ -25,23 +23,17 @@ export const Footer = () => {
             <li>Sunday 4pm-10pm</li>
           </ul>
         </div>
-        <div className="text-center w-1/3 flex flex-col text-white">
+        <div className="w-1/3 text-center flex flex-col text-white">
           <h4 className="text-xl md:mb-2 mb-2">Contact us</h4>
-          <div className="m-2 ">
-            <a className="cursor-pointer" href="tel:#">
-              012345678910
-            </a>
-          </div>
-          <div className="m-2">
-            <a className="cursor-pointer" href="tel:#">
-              012345678910
-            </a>
-          </div>
-          <div className="m-2">
-            <a className="cursor-pointer" href="mailto:#">
-              email@example.com
-            </a>
-          </div>
+          <a className="cursor-pointer m-2" href="tel:#">
+            012345678910
+          </a>
+          <a className="cursor-pointer m-2" href="tel:#">
+            012345678910
+          </a>
+          <a className="cursor-pointer m-2" href="mailto:#">
+            email@example.com
+          </a>
         </div>
       </div>
     </footer>

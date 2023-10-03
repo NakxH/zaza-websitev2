@@ -29,7 +29,7 @@ export const Nav = () => {
           <a className="mr-6" href="#menu">
             Menu
           </a>
-          <a className="mr-6" href="#">
+          <a className="mr-6" href="#reservations">
             Reservations
           </a>
           <a className="mr-6" href="#">
