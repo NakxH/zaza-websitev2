@@ -1,9 +1,9 @@
-import { ImageLeft } from "./components/ImageLeft";
 import { Nav } from "./components/nav";
 import { TextWithPhotoRight } from "./components/textWithPhotoRight";
 import { Footer } from "./components/footer";
 import { BookATable } from "./components/bookATable";
-import { ImageRight } from "./components/ImageRight";
+import { ImageLeft } from "./components/imageLeft";
+import { ImageRight } from "./components/imageRight";
 
 export const App = () => {
   return (
