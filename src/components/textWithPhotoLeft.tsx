@@ -1,3 +1,5 @@
+import { Text } from "./text";
+
 interface TextWithPhotoLeftProps {
   isMenu: boolean;
   title: string;
@@ -17,14 +19,12 @@ export const TextWithPhotoLeft = ({
         <div className="md:w-1/2 w-full mt-8 md:mt-0">
           <img className="mr-auto" src={img} />
         </div>
-
         <div className="md:w-1/2 w-full full md:pl-8">
-          <h2 className="mb-4 text-3xl">{title}</h2>
-          <p className="text-center">{content}</p>
+          <Text title={title} content={content}></Text>
           {isMenu && (
             <div className="cursor-pointer mt-6">
               <a className="cursor-pointer mt-6">
-                Check out the full menu here
+                Please check out the full menu here.
               </a>
             </div>
           )}

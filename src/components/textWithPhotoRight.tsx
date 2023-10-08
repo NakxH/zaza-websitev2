@@ -1,3 +1,5 @@
+import { Text } from "./text";
+
 interface TextWithPhotoRightProps {
   isMenu: boolean;
   title: string;
@@ -12,11 +14,10 @@ export const TextWithPhotoRight = ({
   img,
 }: TextWithPhotoRightProps) => {
   return (
-    <section className="p-8 mt-6 text-center">
+    <section className="p-8 mx-6 text-center">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
         <div className="md:w-1/2 w-full full md:pr-8">
-          <h2 className="mb-4 text-3xl">{title}</h2>
-          <p className="text-center">{content}</p>
+          <Text title={title} content={content} />
           {isMenu && (
             <div className="cursor-pointer mt-6">
               <a className="cursor-pointer mt-6">
