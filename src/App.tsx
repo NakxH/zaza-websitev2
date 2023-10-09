@@ -1,9 +1,8 @@
 import { Nav } from "./components/nav";
-import { TextWithPhotoRight } from "./components/textWithPhotoRight";
 import { Footer } from "./components/footer";
 import { ImageFullWidth } from "./components/imageFullWidth";
-import { TextWithPhotoLeft } from "./components/textWithPhotoLeft";
 import { Reservations } from "./components/reservations";
+import { TextWithPhoto } from "./components/textWithPhoto";
 
 const aboutUsContent = (
   <>
@@ -77,16 +76,18 @@ export const App = () => {
     <>
       <Nav />
       <ImageFullWidth img="/public/kebab.jpg" />
-      <TextWithPhotoRight
+      <TextWithPhoto
         title="About Aya"
         content={aboutUsContent}
         img="https://plus.unsplash.com/premium_photo-1663852297267-827c73e7529e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+        imgPosition="right"
       />
       <ImageFullWidth img="/public/spices.jpg" />
-      <TextWithPhotoLeft
+      <TextWithPhoto
         title="Menu"
         img="https://plus.unsplash.com/premium_photo-1663852297267-827c73e7529e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
         content={menuContent}
+        imgPosition="left"
       />
       <ImageFullWidth img="/public/baklava2.jpg" />
       <Reservations title="Reservations" content={reservationContent} />
