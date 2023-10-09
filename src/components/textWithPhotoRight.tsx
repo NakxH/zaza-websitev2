@@ -3,7 +3,7 @@ import { Text } from "./text";
 interface TextWithPhotoRightProps {
   isMenu: boolean;
   title: string;
-  content: string;
+  content: string | JSX.Element;
   img: string;
 }
 

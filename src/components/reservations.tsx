@@ -2,7 +2,7 @@ import { Text } from "./text";
 
 interface ReservationsProps {
   title: string;
-  content: string;
+  content: string | JSX.Element;
 }
 
 export const Reservations = ({ title, content }: ReservationsProps) => {
