@@ -27,7 +27,7 @@ export const TextWithPhotoRight = ({
           )}
         </div>
 
-        <div className="md:w-1/2 w-full mt-8 md:mt-0">
+        <div className="md:w-1/2 w-full mt-8 md:mt-0 border">
           <img className="ml-auto" src={img} />
         </div>
       </div>

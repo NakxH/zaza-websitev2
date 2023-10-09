@@ -4,7 +4,7 @@ interface ImageFullWidthProps {
 
 export const ImageFullWidth = ({ img }: ImageFullWidthProps) => {
   return (
-    <section className="">
+    <section className="border">
       <div
         className="md:h-96 h-64 bg-center bg-fixed bg-cover"
         style={{

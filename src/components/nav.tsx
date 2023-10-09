@@ -15,7 +15,7 @@ export const Nav = () => {
 
   return (
     <div className="top-0 z-20">
-      <nav className="bg-black py-4 border-b-2 border-white">
+      <nav className="bg-black py-4">
         <div className="container mx-auto flex items-center justify-between flex-wrap">
           <div className="flex items-center flex-shrink-0 text-white ml-4 my-2">
             <img alt="logo" height={50} src="/public/logonew.jpg" width={150} />
