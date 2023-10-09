@@ -18,7 +18,7 @@ export const Nav = () => {
       <nav className="bg-black py-4">
         <div className="container mx-auto flex items-center justify-between flex-wrap">
           <div className="flex items-center flex-shrink-0 text-white ml-4 my-2">
-            <img alt="logo" height={50} src="/public/logonew.jpg" width={150} />
+            <img alt="logo" src="/public/logonew.jpg" width={100} />
           </div>
           <div className="lg:hidden">
             <button
