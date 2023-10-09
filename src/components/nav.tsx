@@ -14,7 +14,7 @@ export const Nav = () => {
   console.log(showMenu);
 
   return (
-    <div className="sticky top-0 z-20">
+    <div className="top-0 z-20">
       <nav className="bg-black py-4 border-b-2 border-white">
         <div className="container mx-auto flex items-center justify-between flex-wrap">
           <div className="flex items-center flex-shrink-0 text-white ml-4 my-2">

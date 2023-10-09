@@ -9,7 +9,7 @@ export const Reservations = ({ title, content }: ReservationsProps) => {
   return (
     <section className="p-4 text-white mt-8 mb-8" id="reservations">
       <div className="container mx-auto flex flex-col justify-center items-center">
-        <div className="text-center mb-4 w-1/2">
+        <div className="text-center mb-4 md:w-1/2">
           <Text title={title} content={content}></Text>
         </div>
         <div className="flex flex-row ">
