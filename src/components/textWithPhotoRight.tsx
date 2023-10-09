@@ -14,7 +14,7 @@ export const TextWithPhotoRight = ({
   img,
 }: TextWithPhotoRightProps) => {
   return (
-    <section className="p-8 mx-6 text-center">
+    <section className="p-8 text-center">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
         <div className="md:w-1/2 w-full full md:pr-8">
           <Text title={title} content={content} />
