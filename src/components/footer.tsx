@@ -2,13 +2,14 @@ export const Footer = () => {
   return (
     <footer className="mt-auto bg-black p-8 text-sm">
       <div className="mx-auto container flex md:flex-row flex-col md:items-start items-center gap-12 md:gap-0">
-        <div className="text-center md:w-1/3 w-1/2">
+        <div className="text-center md:w-1/3 w-1/2 flex flex-col items-center">
           <h4 className="text-white text-xl md:mb-2 mb-2">Location</h4>
           <address className="text-white mb-2 text-sm">
-            16 Crosse Hall Lane, Chorley, Lancashire, PR60QJ
+            Wakefield Wakefield Wakefield
           </address>
-          <a className="cursor-pointer" href="https://google.com">
-            <p>Get Directions</p>
+          <p>Get directions by clicking the icon below</p>
+          <a className="cursor-pointer mt-4" href="https://google.com">
+            <img src="../../public/map.svg" width={40} />
           </a>
         </div>
         <div className="text-center md:w-1/3 w-1/2">

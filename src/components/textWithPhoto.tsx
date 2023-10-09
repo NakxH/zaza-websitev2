@@ -15,7 +15,11 @@ export const TextWithPhoto = ({
 }: TextWithPhotoProps) => {
   return (
     <section className="p-8 text-center">
-      <div className={`container mx-auto gap-8 flex flex-col ${imgPosition === "left" ? "md:flex-row-reverse" : "md:flex-row"} items-center justify-center`}>
+      <div
+        className={`container mx-auto gap-8 flex flex-col ${
+          imgPosition === "left" ? "md:flex-row-reverse" : "md:flex-row"
+        } items-center justify-center`}
+      >
         <div className="md:w-1/2 w-full full">
           <Text title={title} content={content} />
         </div>
