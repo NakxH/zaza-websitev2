@@ -7,7 +7,7 @@ interface ReservationsProps {
 
 export const Reservations = ({ title, content }: ReservationsProps) => {
   return (
-    <section className="p-8 text-white mt-4 border-b" id="reservations">
+    <section className="p-8 text-white mt-4" id="reservations">
       <div className="container mx-auto flex flex-col justify-center items-center ">
         <div className="text-center mb-4 md:w-1/2">
           <Text title={title} content={content}></Text>

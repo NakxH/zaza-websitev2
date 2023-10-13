@@ -3,7 +3,7 @@ import { Footer } from "./components/footer";
 import { ImageFullWidth } from "./components/imageFullWidth";
 import { Reservations } from "./components/reservations";
 import { TextWithPhoto } from "./components/textWithPhoto";
-import { InstaComponent } from "./components/instaComponent";
+import { SocialComponent } from "./components/socialComponent";
 
 const aboutUsContent = (
   <>
@@ -102,9 +102,9 @@ export const App = () => {
         imgPosition="left"
       />
       <ImageFullWidth img="/public/baklava2.jpg" />
-      <InstaComponent />
       <ImageFullWidth img="/public/coals.jpg" />
       <Reservations title="Reservations" content={reservationContent} />
+      <SocialComponent />
       <Footer />
     </>
   );
