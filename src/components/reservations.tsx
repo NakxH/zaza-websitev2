@@ -14,13 +14,19 @@ export const Reservations = ({ title, content }: ReservationsProps) => {
         </div>
         <div className="flex flex-row mt-4">
           <a className="mr-20 cursor-pointer " href="mail">
-            <img src="/public/email.svg" width={50} />
+            <i
+              className="fa-solid fa-envelope fa-2x"
+              style={{ color: "#ffffff" }}
+            />
           </a>
           <a className="cursor-pointer" href="map">
-            <img src="/public/map.svg" width={40} />
+            <i
+              className="fa-solid fa-phone fa-2x"
+              style={{ color: "#ffffff" }}
+            />
           </a>
           <a className="ml-20 cursor-pointer" href="phone">
-            <img src="/public/phone.svg" width={50} />
+            <i className="fa-solid fa-map fa-2x" style={{ color: "#ffffff" }} />
           </a>
         </div>
       </div>

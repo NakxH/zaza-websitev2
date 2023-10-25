@@ -7,9 +7,12 @@ export const Footer = () => {
           <address className="text-white mb-2 text-sm">
             Wakefield Wakefield Wakefield
           </address>
-          <p>Get directions by clicking the icon below</p>
+          <p>Get directions by clicking the pin below</p>
           <a className="cursor-pointer mt-4" href="https://google.com">
-            <img src="../../public/map.svg" width={40} />
+            <i
+              className="fa-solid fa-map-pin fa-2x"
+              style={{ color: "#ffffff" }}
+            />
           </a>
         </div>
         <div className="text-center md:w-1/3 w-1/2">

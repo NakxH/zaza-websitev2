@@ -3,7 +3,6 @@ import { Footer } from "./components/footer";
 import { ImageFullWidth } from "./components/imageFullWidth";
 import { Reservations } from "./components/reservations";
 import { TextWithPhoto } from "./components/textWithPhoto";
-import { SocialComponent } from "./components/socialComponent";
 
 const aboutUsContent = (
   <>
@@ -57,9 +56,12 @@ const menuContent = (
       tantalizing journey that celebrates the heart and soul of Turkish cuisine.
     </p>
     <div>
-      <p className="mt-2">Click the icon below to see our full menu.</p>
+      <p className="mt-2 mb-6">Click the icon below to see our full menu.</p>
       <a className="inline-flex text-xl cursor-pointer" href="#">
-        <img src="/public/foodmenu2.svg" width={60} />
+        <i
+          className="fa-solid fa-utensils fa-2x"
+          style={{ color: "#ffffff" }}
+        />
       </a>
     </div>
   </>
@@ -104,7 +106,6 @@ export const App = () => {
       <ImageFullWidth img="/public/baklava2.jpg" />
       <ImageFullWidth img="/public/coals.jpg" />
       <Reservations title="Reservations" content={reservationContent} />
-      <SocialComponent />
       <Footer />
     </>
   );
