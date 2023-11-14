@@ -72,15 +72,16 @@ const reservationContent = (
     <p>
       Reserving your table at Aya is easy. You can make a reservation with us
       either by phone or email, whichever suits your preference. Simply give us
-      a call at 077777777777 to speak with our friendly staff, who will assist
-      you in selecting the perfect date and time for your dining experience.
+      a call by clicking the phone icon below or using the number located at the
+      bottom of the page. Our friendly staff will assist you in selecting the
+      perfect date and time for your dining experience.
     </p>
     <p className="mt-2">
       Alternatively, you can drop us an email at reservations@ayarestaurant.com,
-      and our dedicated reservation team will promptly confirm your booking,
-      ensuring that your visit to Aya is a memorable one. We can't wait to
-      welcome you to our restaurant and offer you an authentic taste of Turkey
-      with warm hospitality and exquisite flavors.
+      We will promptly confirm your booking, ensuring that your visit to Aya is
+      a memorable one. We can't wait to welcome you to our restaurant and offer
+      you an authentic taste of Turkey with warm hospitality and exquisite
+      flavors.
     </p>
   </>
 );
@@ -90,23 +91,31 @@ export const App = () => {
     <>
       <Nav />
       <ImageFullWidth img="/public/kebab.jpg" />
-      <TextWithPhoto
-        title="About Aya"
-        content={aboutUsContent}
-        img="https://plus.unsplash.com/premium_photo-1663852297267-827c73e7529e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
-        imgPosition="right"
-      />
+      <div id="aboutUs">
+        <TextWithPhoto
+          title="About Aya"
+          content={aboutUsContent}
+          img="/public/adanakebab.jpg"
+          imgPosition="right"
+        />
+      </div>
       <ImageFullWidth img="/public/baklava2.jpg" />
-      <TextWithPhoto
-        title="Menu"
-        img="https://plus.unsplash.com/premium_photo-1663852297267-827c73e7529e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
-        content={menuContent}
-        imgPosition="left"
-      />
-      <ImageFullWidth img="/public/spices.jpg" />
+      <div id="menu">
+        <TextWithPhoto
+          title="Menu"
+          img="/public/kebab3.jpg"
+          content={menuContent}
+          imgPosition="left"
+        />
+      </div>
       <ImageFullWidth img="/public/coals2.jpg" />
-      <Reservations title="Reservations" content={reservationContent} />
-      <Footer />
+      <div id="reservations">
+        <Reservations title="Reservations" content={reservationContent} />
+      </div>
+      {/* <ImageFullWidth img="/public/spices.jpg" /> */}
+      <div id="directions">
+        <Footer />
+      </div>
     </>
   );
 };

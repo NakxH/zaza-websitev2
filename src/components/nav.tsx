@@ -39,7 +39,7 @@ export const Nav = () => {
               <div className="text-sm lg:flex-grow"></div>
               <div>
                 <a
-                  href="#"
+                  href="#aboutUs"
                   className={`block mt-4 lg:inline-block lg:mt-0 mr-4`}
                 >
                   About Us
@@ -50,12 +50,12 @@ export const Nav = () => {
                 >
                   Menu
                 </a>
-                <a
+                {/* <a
                   href="#gallery"
                   className={`block mt-4 lg:inline-block lg:mt-0 mr-4`}
                 >
                   Gallery
-                </a>
+                </a> */}
                 <a
                   href="#reservations"
                   className={`block mt-4 lg:inline-block lg:mt-0 mr-4`}
