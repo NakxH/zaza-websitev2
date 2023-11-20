@@ -3,6 +3,7 @@ import { Footer } from "./components/footer";
 import { ImageFullWidth } from "./components/imageFullWidth";
 import { Reservations } from "./components/reservations";
 import { TextWithPhoto } from "./components/textWithPhoto";
+import adanakebab from "../public/adanakebab.jpg";
 
 const aboutUsContent = (
   <>
@@ -95,7 +96,7 @@ export const App = () => {
         <TextWithPhoto
           title="About Aya"
           content={aboutUsContent}
-          img="/public/adanakebab.jpg"
+          img={adanakebab}
           imgPosition="right"
         />
       </div>
