@@ -42,13 +42,9 @@ export const Footer = () => {
         <div className="text-center md:w-1/3 w-1/2">
           <h4 className="text-white text-xl md:mb-2 mb-2">Opening hours</h4>
           <ul className="text-white text-sm">
-            <li>Monday 10am-11pm</li>
-            <li>Tuesday 10am-11pm</li>
-            <li>Wednesday 10am-11pm</li>
-            <li>Thursday 10am-11pm</li>
-            <li>Friday 10am-11pm</li>
-            <li>Saturday 10am-11pm</li>
-            <li>Sunday 10am-11pm</li>
+            <li>Monday to Firday 10am-11pm</li>
+            <li>Saturday 10am-Late</li>
+            <li>Sunday 10am-Late</li>
           </ul>
         </div>
         <div className="md:w-1/3 w-1/2 text-center flex flex-col text-white">
