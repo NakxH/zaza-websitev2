@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
+import hamburger from "../../public/hamburger.svg";
+import logo from "../../public/logonew.jpg";
 
 export const Nav = () => {
   const isMobile = useMediaQuery({ maxWidth: 1023 });
@@ -18,7 +20,7 @@ export const Nav = () => {
       <nav className="bg-black py-4">
         <div className="container mx-auto flex items-center justify-between flex-wrap">
           <div className="flex items-center flex-shrink-0 text-white ml-4 my-2">
-            <img alt="logo" src="/public/logonew.jpg" width={100} />
+            <img alt="logo" src={logo} width={100} />
           </div>
           <div className="lg:hidden">
             <button
@@ -26,12 +28,7 @@ export const Nav = () => {
               className="navbar-burger flex items-center p-2"
               onClick={() => setShowMenu(!showMenu)}
             >
-              <img
-                src="/hamburger.svg"
-                alt="Menu icon"
-                width={24}
-                height={24}
-              />
+              <img src={hamburger} alt="Menu icon" width={24} height={24} />
             </button>
           </div>
           {showMenu && (

@@ -4,6 +4,10 @@ import { ImageFullWidth } from "./components/imageFullWidth";
 import { Reservations } from "./components/reservations";
 import { TextWithPhoto } from "./components/textWithPhoto";
 import adanakebab from "../public/adanakebab.jpg";
+import kebab from "../public/kebab.jpg";
+import baklava2 from "../public/baklava2.jpg";
+import kebab3 from "../public/kebab3.jpg";
+import coals2 from "../public/coals2.jpg";
 
 const aboutUsContent = (
   <>
@@ -91,7 +95,7 @@ export const App = () => {
   return (
     <>
       <Nav />
-      <ImageFullWidth img="/public/kebab.jpg" />
+      <ImageFullWidth img={kebab} />
       <div id="aboutUs">
         <TextWithPhoto
           title="About Aya"
@@ -100,16 +104,16 @@ export const App = () => {
           imgPosition="right"
         />
       </div>
-      <ImageFullWidth img="/public/baklava2.jpg" />
+      <ImageFullWidth img={baklava2} />
       <div id="menu">
         <TextWithPhoto
           title="Menu"
-          img="/public/kebab3.jpg"
+          img={kebab3}
           content={menuContent}
           imgPosition="left"
         />
       </div>
-      <ImageFullWidth img="/public/coals2.jpg" />
+      <ImageFullWidth img={coals2} />
       <div id="reservations">
         <Reservations title="Reservations" content={reservationContent} />
       </div>
