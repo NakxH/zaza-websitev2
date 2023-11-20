@@ -47,7 +47,7 @@ export const Footer = () => {
             <li>Sunday 10am-Late</li>
           </ul>
         </div>
-        <div className="md:w-1/3 w-1/2 text-center flex flex-col text-white">
+        <div className="md:w-1/3 text-center flex flex-col text-white">
           <h4 className="text-xl md:mb-2 mb-2">Contact us</h4>
           <a className="cursor-pointer m-2" href="tel:01924565075">
             01924565075
