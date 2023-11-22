@@ -9,7 +9,7 @@ export const Footer = () => {
           </address>
           <p>
             Get directions by clicking the pin below. Don't forget to follow us
-            on social media.
+            on all platforms.
           </p>
           <div className="flex mt-4">
             <a
