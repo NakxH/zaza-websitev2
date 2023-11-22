@@ -3,11 +3,11 @@ import { Footer } from "./components/footer";
 import { ImageFullWidth } from "./components/imageFullWidth";
 import { Reservations } from "./components/reservations";
 import { TextWithPhoto } from "./components/textWithPhoto";
-import adanakebab from "../public/adanakebab.jpg";
-import kebab from "../public/kebab.jpg";
-import baklava2 from "../public/baklava2.jpg";
-import kebab3 from "../public/kebab3.jpg";
-import coals2 from "../public/coals2.jpg";
+import adanakebab from "../public/zazakebabnew.jpg";
+import kebab from "../public/zazakebab.jpg";
+import baklava2 from "../public/zazabaklava2.jpg";
+import kebab3 from "../public/zazakebab3.jpg";
+import coals2 from "../public/zazacoals2.jpg";
 
 const aboutUsContent = (
   <>
@@ -45,7 +45,7 @@ const menuContent = (
   <>
     <p>
       Our menu at Aya is a culinary odyssey through the diverse and vibrant
-      flavors of Turkey. From our savory kebabs, marinated to perfection and
+      flavors of Turkey. From our savoury kebabs, marinated to perfection and
       cooked over an open flame, to our indulgent baklava dripping with honey
       and nuts, each dish tells a story of tradition and craftsmanship.
     </p>
@@ -82,7 +82,7 @@ const reservationContent = (
       perfect date and time for your dining experience.
     </p>
     <p className="mt-2">
-      Alternatively, you can drop us an email at reservations@ayarestaurant.com,
+      Alternatively, you can drop us an email at reservations@ayarestaurant.com.
       We will promptly confirm your booking, ensuring that your visit to Aya is
       a memorable one. We can't wait to welcome you to our restaurant and offer
       you an authentic taste of Turkey with warm hospitality and exquisite
