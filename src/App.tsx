@@ -60,11 +60,27 @@ const menuContent = (
       freshness of Mediterranean salads, our menu invites you to embark on a
       tantalizing journey that celebrates the heart and soul of Turkish cuisine.
     </p>
-    <div>
-      <p className="mt-2 mb-6">Click the icon below to see our full menu.</p>
-      <a className="inline-flex text-xl cursor-pointer" href="#">
+    <div className="">
+      <p className="mt-2 mb-6">
+        Click the icons below to see our starters, mains and deserts.
+      </p>
+      <a
+        className="inline-flex text-xl cursor-pointer mr-2"
+        href="/public/menu.pdf"
+        target="_blank"
+      >
         <i
           className="fa-solid fa-utensils fa-2x"
+          style={{ color: "#ffffff" }}
+        />
+      </a>
+      <a
+        className="inline-flex text-xl cursor-pointer ml-2"
+        href="/public/desertmenu.pdf"
+        target="_blank"
+      >
+        <i
+          className="fa-solid fa-ice-cream fa-2x"
           style={{ color: "#ffffff" }}
         />
       </a>
