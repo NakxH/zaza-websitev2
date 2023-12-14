@@ -8,6 +8,8 @@ import kebab from "../public/zazakebab.jpg";
 import baklava2 from "../public/zazabaklava2.jpg";
 import kebab3 from "../public/zazakebab3.jpg";
 import coals2 from "../public/zazacoals2.jpg";
+import menu from "../public/menu.pdf";
+import desertmenu from "../public/desertmenu.pdf";
 
 const aboutUsContent = (
   <>
@@ -66,7 +68,7 @@ const menuContent = (
       </p>
       <a
         className="inline-flex text-xl cursor-pointer mr-2"
-        href="/public/menu.pdf"
+        href={menu}
         target="_blank"
       >
         <i
@@ -76,7 +78,7 @@ const menuContent = (
       </a>
       <a
         className="inline-flex text-xl cursor-pointer ml-2"
-        href="/public/desertmenu.pdf"
+        href={desertmenu}
         target="_blank"
       >
         <i
@@ -133,7 +135,6 @@ export const App = () => {
       <div id="reservations">
         <Reservations title="Reservations" content={reservationContent} />
       </div>
-      {/* <ImageFullWidth img="/public/spices.jpg" /> */}
       <div id="directions">
         <Footer />
       </div>

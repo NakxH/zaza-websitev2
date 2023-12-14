@@ -14,6 +14,7 @@ export const Footer = () => {
           <div className="flex mt-4">
             <a
               className="cursor-pointer"
+              target="_blank"
               href="https://www.google.com/maps/place/80+Kirkgate,+Wakefield+WF1+1TB/@53.6819917,-1.4964279,17z/data=!3m1!4b1!4m6!3m5!1s0x487966ff9bdb0fc3:0xeb050ee68a8d09ae!8m2!3d53.6819886!4d-1.493853!16s%2Fg%2F11ffshrpk0?entry=ttu"
             >
               <i
@@ -31,7 +32,7 @@ export const Footer = () => {
                 style={{ color: "#ffffff" }}
               ></i>
             </a>
-            <a className="ml-20 cursor-pointer" href="">
+            <a className="ml-20 cursor-pointer" href="#" target="_blank">
               <i
                 className="fa-brands fa-facebook fa-2x"
                 style={{ color: "#ffffff" }}
